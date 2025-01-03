@@ -4,13 +4,13 @@ Yeah, it is possible to compile C/C++ code with zig itself.
 
 Notice the size and the libraries that are linked with the corresponding binaries too! On Fedora 41 zig 0.13 I get:
 
-    -rwxr-xr-x. 1 dgunchev dgunchev  16616 2025-01-03 23:44 hello_c
-    -rwxr-xr-x. 1 dgunchev dgunchev   4096 2025-01-03 23:44 hello_c_zig
+    -rwxr-xr-x. 1 dgunchev dgunchev  15232 2025-01-04 00:12 hello_c
+    -rwxr-xr-x. 1 dgunchev dgunchev   4096 2025-01-04 00:12 hello_c_zig
 
 and
 
-    -rwxr-xr-x. 1 dgunchev dgunchev  16808 2025-01-03 23:44 hello_cpp
-    -rwxr-xr-x. 1 dgunchev dgunchev 267504 2025-01-03 23:44 hello_cpp_zig
+    -rwxr-xr-x. 1 dgunchev dgunchev  15232 2025-01-04 00:12 hello_cpp
+    -rwxr-xr-x. 1 dgunchev dgunchev 267504 2025-01-04 00:13 hello_cpp_zig
 
 And the libraries linked:
 
